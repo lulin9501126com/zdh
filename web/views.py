@@ -7,3 +7,4 @@ def index(request):
 
 def dev(request):
     return HttpResponse('dev')
+
