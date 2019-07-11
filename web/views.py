@@ -4,6 +4,7 @@ from  web import  models
 from web import modelform
 # Create your views here.
 
+<<<<<<< HEAD
 def register(request):
     if request.method == 'GET':
         register_obj = modelform.Register()
@@ -33,3 +34,5 @@ def login(request):
             return render(request,'index.html')
         else:
             return redirect('login')
+=======
+>>>>>>> 37657105c6eae4ddf2e775c4f916ba1c63c1f0ab
